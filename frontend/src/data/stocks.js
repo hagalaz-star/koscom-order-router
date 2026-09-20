@@ -1,0 +1,6 @@
+export const STOCKS = [
+  { code: '005930', name: '삼성전자' },
+  { code: '000660', name: 'SK하이닉스' },
+  { code: '035420', name: 'NAVER' },
+  { code: '035720', name: '카카오' },
+]

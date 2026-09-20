@@ -1,0 +1,16 @@
+@KoscomRouter_HostAddress = http://localhost:5178
+
+GET {{KoscomRouter_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+@host = http://localhost:5000
+
+POST {{host}}/Order/route/
+Content-Type: application/json
+
+{
+    "symbol": "005930",
+    "quantity": 10
+}
